@@ -3,7 +3,42 @@
 /* //////////////////////////////////////////////////////////////////////////// */
 @import url('https://fonts.googleapis.com/css2?family=Inter:opsz@14..32&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Space+Grotesk:wght@300..700&display=swap');
 
-.space-grotesk-regular {
+
+/* //////////////////////////////////////////////////////////////////////////// */
+/* CSS Variables */
+/* //////////////////////////////////////////////////////////////////////////// */
+:root {
+    --primary-font: 'Space Grotesk', sans-serif;
+    --secondary-font: 'Inter', cursive;
+    --primary-color: rgb(24, 24, 24);
+    --secondary-color: rgb(119, 119, 119);
+    /* --highlight-color: rgb(26, 26, 224);
+    --highlight-color-light: rgb(213, 24, 191); */
+}
+
+/* Global Styles */
+/* body {
+  font-family: var(--secondary-font); 
+color: var(--primary-color);
+} */
+
+h1 {
+    font-family: var(--primary-font); 
+    color: var(--primary-color);
+} 
+
+/* Global Styles */
+h2, h3 {
+    font-family: var(--secondary-font); 
+    background-color: yellow;
+    color: var(--secondary-color);
+} 
+
+
+
+
+
+/* .space-grotesk-regular {
   font-family: "Space Grotesk", sans-serif;
   font-optical-sizing: auto;
   font-weight: 600;
@@ -22,7 +57,7 @@
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
-}
+}  */
 
 
 
@@ -44,33 +79,7 @@
 
 
 
-/* //////////////////////////////////////////////////////////////////////////// */
-/* CSS Variables */
-/* //////////////////////////////////////////////////////////////////////////// */
-:root {
-    /* --primary-font: 'Macondo', sans-serif;
-    --secondary-font: 'Inter', cursive; */
-    /* --primary-color: rgb(224, 26, 26);
-    --secondary-color: rgb(21, 189, 21);
-    --highlight-color: rgb(26, 26, 224);
-    --highlight-color-light: rgb(213, 24, 191); */
-}
 
-/* Global Styles */
-body {
-    /* font-family: var(--primary-font); */
-    /* color: var(--primary-color); */
-    /* background-color: grey; */
-}
-
-/* Global Styles */
-h1,
-h2,
-h3 {
-    /* font-family: var(--secondary-font); */
-    /* background-color: yellow; */
-    /* color: var(--secondary-color); */
-} 
 
 /* //////////////////////////////////////////////////////////////////////////// */
 /* Main Body CSS Styles */
