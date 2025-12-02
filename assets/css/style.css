@@ -26,6 +26,11 @@
 
 
 
+.footer-spacer {
+    height: 95vh; /* Adjust this value based on the footer height */
+}
+
+
 
 /* //////////////////////////////////////////////////////////////////////////// */
 /* CSS Variables */
