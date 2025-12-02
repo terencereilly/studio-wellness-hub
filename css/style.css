@@ -1,0 +1,67 @@
+/* //////////////////////////////////////////////////////////////////////////// */
+/* FONTS Styles */
+/* //////////////////////////////////////////////////////////////////////////// */
+@import url('https://fonts.googleapis.com/css2?family=Inter:opsz@14..32&family=Macondo&display=swap');
+
+/* //////////////////////////////////////////////////////////////////////////// */
+/* CSS Variables */
+/* //////////////////////////////////////////////////////////////////////////// */
+:root {
+    --primary-font: 'Macondo', sans-serif;
+    --secondary-font: 'Inter', cursive;
+    --primary-color: rgb(224, 26, 26);
+    --secondary-color: rgb(21, 189, 21);
+    --highlight-color: rgb(26, 26, 224);
+    --highlight-color-light: rgb(213, 24, 191);
+}
+
+/* Global Styles */
+body {
+    font-family: var(--primary-font);
+    color: var(--primary-color);
+    background-color: grey;
+}
+
+/* Global Styles */
+h1,
+h2,
+h3 {
+    font-family: var(--secondary-font);
+    background-color: yellow;
+    color: var(--secondary-color);
+} 
+
+/* //////////////////////////////////////////////////////////////////////////// */
+/* Main Body CSS Styles */
+/* //////////////////////////////////////////////////////////////////////////// */
+/* .sub-heading-color {
+    color: var(--highlight-color)
+} */
+
+/* //////////////////////////////////////////////////////////////////////////// */
+/* Temporary debugging - shows all elements */
+/* //////////////////////////////////////////////////////////////////////////// */
+* {
+    border: 1px solid rgba(234, 149, 12, 0.7);
+}
+
+/* Temporary debugging */
+/* section#reasons {
+    border: 3px solid blue;
+    background-color: rgba(0, 0, 255, 0.1);
+}
+
+#benefits {
+    border: 3px solid green;
+    background-color: rgba(0, 255, 0, 0.1);
+}
+
+#benefits > div {
+    border: 2px solid orange;
+    background-color: rgba(255, 165, 0, 0.1);
+}
+
+#benefits > div:empty {
+    border: 2px dashed red;
+    min-height: 50px;
+} */
