@@ -28,15 +28,11 @@ h1 {
 } 
 
 /* Global Styles */
-h2, h3 {
+h2, h3, h4, h5, h6 {
     font-family: var(--secondary-font); 
     background-color: yellow;
     color: var(--secondary-color);
 } 
-
-
-
-
 
 /* .space-grotesk-regular {
   font-family: "Space Grotesk", sans-serif;
@@ -65,7 +61,8 @@ h2, h3 {
 /* Main Body CSS Styles */
 /* //////////////////////////////////////////////////////////////////////////// */
 .footer-spacer {
-    min-height: 95vh; /* Adjust this value based on the footer height */
+    min-height: 95vh;
+    /* Adjust this value based on the footer height */
 }
 
 .card {
@@ -78,15 +75,23 @@ h2, h3 {
 }
 
 .hero {
-width: 100wh;
-/* Note find a better way to make this min-height value responsive */
-min-height: 400px; 
-background: linear-gradient(to bottom, #218de6, #F7FAFF);
-
+    width: 100wh;
+    min-height: 30vh;
+    /* Note find a better way to make this min-height value responsive */
+    /* min-height: 400px;  */
+    background: linear-gradient(to bottom, #218de6, #F7FAFF);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
-
-
+/* Positioning Context: Any child elements with position: absolute; will be positioned relative 
+to .hero instead of the nearest positioned ancestor or the document body.Since you don't have any 
+position: absolute; children visible in your code, the position: relative; is likely there 
+as a preparation for future child elements that might need absolute positioning. 
+It's a common pattern when you plan to overlay or position elements on top of the hero section. */
 
 
 
