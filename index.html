@@ -232,12 +232,6 @@
 
 
 
-
-
-
-
-
-
 <script> 
 // Function to determine if device is mobile based on screen width
 function isMobileDevice() {
@@ -259,29 +253,7 @@ function setIframeUrl() {
 }
 
 // Set initial URL when page loads
-// setIframeUrl();
-   
-//         function makeFullScreen(iframeId) {
-//     const iframe = document.getElementById(iframeId);
-//     if (iframe) {
-//         iframe.classList.add("fullScreen");
-//         requestFullScreen(iframe);
-//     }
-// }
-
-// function requestFullScreen(element) {
-//     if (element.requestFullscreen) {
-//         element.requestFullscreen();
-//     } else if (element.webkitRequestFullScreen) { /* Safari */
-//         element.webkitRequestFullScreen();
-//     } else if (element.mozRequestFullScreen) { /* Firefox */
-//         element.mozRequestFullScreen();
-//     } else if (element.msRequestFullscreen) { /* IE/Edge */
-//         element.msRequestFullscreen();
-//     }
-// }
-
-
+setIframeUrl();
 
 function toggleFullscreen(btn) {
     const iframe = document.getElementById('myIframe');
