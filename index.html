@@ -16,6 +16,9 @@
 
 <body>
 
+
+
+  
     <!-- Navigation -->
     <header>
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
@@ -139,6 +142,8 @@
         </div>
 
 
+
+
             <!-- //////////////////////////////////////////////////////////////////////////// -->
             <!-- Tip Info Cards with Link Buttons - Section -->
             <!-- //////////////////////////////////////////////////////////////////////////// -->
@@ -214,6 +219,59 @@
 
     <!-- Font Awesome Kit -->
     <script src="https://kit.fontawesome.com/9fc19e8b68.js" crossorigin="anonymous"></script>
+
+
+
+
+
+
+
+
+
+<script> 
+// Function to determine if device is mobile based on screen width
+function isMobileDevice() {
+    return window.innerWidth <= 768;
+}
+
+// Function to set iframe URL based on device type
+function setIframeUrl() {
+    const iframe = document.getElementById('olta-iframe');
+    if (iframe) {
+        if (isMobileDevice()) {
+            // Mobile: load touch-and-explore playlist
+            iframe.src = 'https://olta-ao-app-lyart.vercel.app/embed/?contractTxId=GVXpnZWoJOE3qEJYS6FgUDj-J2UzONnABZiuyKlanaI&network=testnet&minimal';
+        } else {
+            // Desktop: load main app
+            iframe.src = 'https://app.olta.art/';
+        }
+    }
+}
+
+// Set initial URL when page loads
+setIframeUrl();
+   
+        function makeFullScreen(iframeId) {
+    const iframe = document.getElementById(iframeId);
+    if (iframe) {
+        iframe.classList.add("fullScreen");
+        requestFullScreen(iframe);
+    }
+}
+
+function requestFullScreen(element) {
+    if (element.requestFullscreen) {
+        element.requestFullscreen();
+    } else if (element.webkitRequestFullScreen) { /* Safari */
+        element.webkitRequestFullScreen();
+    } else if (element.mozRequestFullScreen) { /* Firefox */
+        element.mozRequestFullScreen();
+    } else if (element.msRequestFullscreen) { /* IE/Edge */
+        element.msRequestFullscreen();
+    }
+}
+</script>
+
 
 </body>
 
