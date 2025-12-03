@@ -110,7 +110,7 @@ It's a common pattern when you plan to overlay or position elements on top of th
     color: #0B2E4F;
     text-align: center;
     margin-top: 20px;
-    /* padding: 0 20px; */
+    padding: 0 40px;
 }
 
 /* NOTE: If change to section (not .section) it affects all parts in the codebase with the element<section>  */
