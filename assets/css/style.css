@@ -113,6 +113,7 @@ It's a common pattern when you plan to overlay or position elements on top of th
     /* padding: 0 20px; */
 }
 
+/* NOTE: If change to section (not .section) it affects all parts in the codebase with the element<section>  */
 .section {
     padding: 40px 80px;
 }
@@ -135,9 +136,9 @@ It's a common pattern when you plan to overlay or position elements on top of th
 /* //////////////////////////////////////////////////////////////////////////// */
 /* Temporary debugging - shows all elements */
 /* //////////////////////////////////////////////////////////////////////////// */
-* {
+/* * {
     border: 1px solid rgba(234, 149, 12, 0.7);
-}
+} */
 
 /* Temporary debugging */
 /* section#reasons {
