@@ -126,28 +126,38 @@
                 • Feeling overwhelmed
                 • Changes in sleep patterns
                 • Tension or restlessness
-            </h4>
-        </div>
-
-        <!-- //////////////////////////////////////////////////////////////////////////// -->
-        <!-- iFrame Section -->
-        <!-- //////////////////////////////////////////////////////////////////////////// -->
-
-        <div class="connect-artwork">
-            <h2 class="connect-heading">Building Connection & Community</h2>
-            <p class="connect-paragraph">Connect is our signature artwork that visualizes the network of everyone who has ever worked here. Participation is optional — add your point or observe the network grow.</p> 
-
-            <!-- <div class="connect-placeholder">Connect Embed Placeholder</div> -->
-            <iframe src="https://olta-ao-app-lyart.vercel.app/embed/?contractTxId=GVXpnZWoJOE3qEJYS6FgUDj-J2UzONnABZiuyKlanaI&network=testnet&minimal" allow="fullscreen" allowfullscreen></iframe>
-        </div>
-
-
-
-
-            <!-- //////////////////////////////////////////////////////////////////////////// -->
-            <!-- Tip Info Cards with Link Buttons - Section -->
-            <!-- //////////////////////////////////////////////////////////////////////////// -->
-            <section class="container-fluid text-center">
+                </h4>
+                </div>
+                
+                <!-- //////////////////////////////////////////////////////////////////////////// -->
+                <!-- iFrame Section -->
+                <!-- //////////////////////////////////////////////////////////////////////////// -->
+                <div class="connect-artwork">
+                    <h2 class="connect-heading">Building Connection & Community</h2>
+                    <p class="connect-paragraph">Connect is our signature artwork that visualizes the network of everyone who has ever
+                        worked here. Participation is optional — add your point or observe the network grow.</p>
+                
+                    <!-- <div class="connect-placeholder">Connect Embed Placeholder</div> -->
+                
+                    <!-- <iframe src="https://olta-ao-app-lyart.vercel.app/embed/?contractTxId=GVXpnZWoJOE3qEJYS6FgUDj-J2UzONnABZiuyKlanaI&network=testnet&minimal" allow="fullscreen" allowfullscreen></iframe> -->
+                    <!-- </div> -->
+                
+                    <div class="iframe-container">
+                        <button class="fullscreen-btn" onclick="toggleFullscreen()">
+                            <i class="fa-solid fa-expand"></i>
+                        </button>
+                        <iframe id="myIframe"
+                            src="https://olta-ao-app-lyart.vercel.app/embed/?contractTxId=GVXpnZWoJOE3qEJYS6FgUDj-J2UzONnABZiuyKlanaI&network=testnet&minimal"
+                            allow="fullscreen" allowfullscreen></iframe>
+                    </div>
+                </div>
+                
+                
+                
+                <!-- //////////////////////////////////////////////////////////////////////////// -->
+                <!-- Tip Info Cards with Link Buttons - Section -->
+                <!-- //////////////////////////////////////////////////////////////////////////// -->
+                <section class="container-fluid text-center">
 
                 <div class="row">
                     <div class="col-12 col-md-4">
@@ -249,25 +259,34 @@ function setIframeUrl() {
 }
 
 // Set initial URL when page loads
-setIframeUrl();
+// setIframeUrl();
    
-        function makeFullScreen(iframeId) {
-    const iframe = document.getElementById(iframeId);
-    if (iframe) {
-        iframe.classList.add("fullScreen");
-        requestFullScreen(iframe);
-    }
-}
+//         function makeFullScreen(iframeId) {
+//     const iframe = document.getElementById(iframeId);
+//     if (iframe) {
+//         iframe.classList.add("fullScreen");
+//         requestFullScreen(iframe);
+//     }
+// }
 
-function requestFullScreen(element) {
-    if (element.requestFullscreen) {
-        element.requestFullscreen();
-    } else if (element.webkitRequestFullScreen) { /* Safari */
-        element.webkitRequestFullScreen();
-    } else if (element.mozRequestFullScreen) { /* Firefox */
-        element.mozRequestFullScreen();
-    } else if (element.msRequestFullscreen) { /* IE/Edge */
-        element.msRequestFullscreen();
+// function requestFullScreen(element) {
+//     if (element.requestFullscreen) {
+//         element.requestFullscreen();
+//     } else if (element.webkitRequestFullScreen) { /* Safari */
+//         element.webkitRequestFullScreen();
+//     } else if (element.mozRequestFullScreen) { /* Firefox */
+//         element.mozRequestFullScreen();
+//     } else if (element.msRequestFullscreen) { /* IE/Edge */
+//         element.msRequestFullscreen();
+//     }
+// }
+
+
+
+function toggleFullscreen(btn) {
+    const iframe = document.getElementById('myIframe');
+    if (iframe.requestFullscreen) {
+        iframe.requestFullscreen();
     }
 }
 </script>
