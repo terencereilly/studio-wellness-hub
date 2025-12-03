@@ -62,7 +62,7 @@ h2, h3 {
 
 
 /* //////////////////////////////////////////////////////////////////////////// */
-/* CSS Variables */
+/* Main Body CSS Styles */
 /* //////////////////////////////////////////////////////////////////////////// */
 .footer-spacer {
     min-height: 95vh; /* Adjust this value based on the footer height */
@@ -77,23 +77,42 @@ h2, h3 {
     /* transition: transform 0.2s; */
 }
 
+.hero {
+width: 100wh;
+/* Note find a better way to make this min-height value responsive */
+min-height: 400px; 
+background: linear-gradient(to bottom, #218de6, #F7FAFF);
+
+}
 
 
 
 
-/* //////////////////////////////////////////////////////////////////////////// */
-/* Main Body CSS Styles */
-/* //////////////////////////////////////////////////////////////////////////// */
-/* .sub-heading-color {
-    color: var(--highlight-color)
-} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* //////////////////////////////////////////////////////////////////////////// */
 /* Temporary debugging - shows all elements */
 /* //////////////////////////////////////////////////////////////////////////// */
-/* * {
+* {
     border: 1px solid rgba(234, 149, 12, 0.7);
-} */
+}
 
 /* Temporary debugging */
 /* section#reasons {
