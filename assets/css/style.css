@@ -118,6 +118,19 @@ It's a common pattern when you plan to overlay or position elements on top of th
     padding: 40px 80px;
 }
 
+.signs-of-stress {
+    width: 100wh;
+    min-height: 30vh;
+    /* Note find a better way to make this min-height value responsive */
+    /* min-height: 400px;  */
+    background: yellow;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 
 /* //////////////////////////////////////////////////////////////////////////// */
 /* iFrame Section */
@@ -128,11 +141,14 @@ It's a common pattern when you plan to overlay or position elements on top of th
     background-color: red;
     /* border-radius: 8px; */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin-top: 40px;
+    /* margin-top: 40px; */
 }
     
+.connect-placeholder {
+    width: 80wh;
+    min-height: 50vh;
 
-
+}
 
 
 
