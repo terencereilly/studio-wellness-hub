@@ -119,9 +119,18 @@ It's a common pattern when you plan to overlay or position elements on top of th
 }
 
 
-
-
-
+/* //////////////////////////////////////////////////////////////////////////// */
+/* iFrame Section */
+/* //////////////////////////////////////////////////////////////////////////// */
+.connect-artwork {
+    text-align: center;
+    padding: 20px;
+    background-color: red;
+    /* border-radius: 8px; */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 40px;
+}
+    
 
 
 
@@ -136,9 +145,9 @@ It's a common pattern when you plan to overlay or position elements on top of th
 /* //////////////////////////////////////////////////////////////////////////// */
 /* Temporary debugging - shows all elements */
 /* //////////////////////////////////////////////////////////////////////////// */
-/* * {
+* {
     border: 1px solid rgba(234, 149, 12, 0.7);
-} */
+}
 
 /* Temporary debugging */
 /* section#reasons {
