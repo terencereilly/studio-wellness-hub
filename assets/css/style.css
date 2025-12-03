@@ -22,17 +22,17 @@
 color: var(--primary-color);
 } */
 
-h1 {
+/* h1 {
     font-family: var(--primary-font); 
     color: var(--primary-color);
-} 
+}  */
 
 /* Global Styles */
-h2, h3, h4, h5, h6 {
+/* h2, h3, h4, h5, h6 {
     font-family: var(--secondary-font); 
     background-color: yellow;
     color: var(--secondary-color);
-} 
+}  */
 
 /* .space-grotesk-regular {
   font-family: "Space Grotesk", sans-serif;
@@ -93,9 +93,29 @@ position: absolute; children visible in your code, the position: relative; is li
 as a preparation for future child elements that might need absolute positioning. 
 It's a common pattern when you plan to overlay or position elements on top of the hero section. */
 
+.hero-heading {
+    font-family: 'Inter', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    color: white; 
+    /* color: #0B2E4F; */
+    text-align: center;
+    margin-top: 60px;
+}
 
+.hero-sub-heading {
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    /* color: white;  */
+    color: #0B2E4F;
+    text-align: center;
+    margin-top: 20px;
+    /* padding: 0 20px; */
+}
 
-
+.section {
+    padding: 40px 80px;
+}
 
 
 
