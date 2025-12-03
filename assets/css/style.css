@@ -138,17 +138,32 @@ It's a common pattern when you plan to overlay or position elements on top of th
 .connect-artwork {
     text-align: center;
     padding: 20px;
-    background-color: red;
+    background-color:  white;
     /* border-radius: 8px; */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     /* margin-top: 40px; */
 }
-    
-.connect-placeholder {
-    width: 80wh;
+   
+/* original placeholder for iframe linked to text called 'Placeholder Text'*/
+/* .connect-placeholder {
+    width: 100%;
     min-height: 50vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color: green;
+    font-size: 30px;
+} */
 
+iframe {
+    width: 100%;
+    height: 60vh;
+    display: block;
+    border: 2px solid #333;
+    border-radius: 8px;
 }
+
+
 
 
 
@@ -161,9 +176,9 @@ It's a common pattern when you plan to overlay or position elements on top of th
 /* //////////////////////////////////////////////////////////////////////////// */
 /* Temporary debugging - shows all elements */
 /* //////////////////////////////////////////////////////////////////////////// */
-* {
+/* * {
     border: 1px solid rgba(234, 149, 12, 0.7);
-}
+} */
 
 /* Temporary debugging */
 /* section#reasons {
