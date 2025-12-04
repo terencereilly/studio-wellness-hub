@@ -367,6 +367,21 @@ It's a common pattern when you plan to overlay or position elements on top of th
 }
 
 
+/* wip */
+.footer-supporting {
+    font-family: 'Inter', sans-serif;
+opacity: 0.3;
+    /* font-size: 20px; */
+    /* color: white;  */
+    color: #8fa8a8;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 0 20px;
+
+}
+
+
 
 
 
