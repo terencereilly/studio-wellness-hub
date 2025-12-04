@@ -186,7 +186,7 @@ color: var(--primary-color);
     justify-content: center;
 }
 
-background: linear-gradient(90deg, var(--wellness-lavender) 0%, var(--wellness-blue) 50%, var(--wellness-yellow) 100%);
+/* background: linear-gradient(90deg, var(--wellness-lavender) 0%, var(--wellness-blue) 50%, var(--wellness-yellow) 100%); */
 
 
 .gradient-wellness-soft {
@@ -209,12 +209,79 @@ background: linear-gradient(90deg, var(--wellness-lavender) 0%, var(--wellness-b
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-image:
+    background-image: 
         radial-gradient(circle at 20% 80%, rgba(167, 199, 231, 0.15) 0%, transparent 50%),
         radial-gradient(circle at 80% 20%, rgba(182, 227, 193, 0.15) 0%, transparent 50%);
 }
 
+/* //////////////////////////////////////////////////////////////////////////// */
+/* Gradient Text Classes */
+/* //////////////////////////////////////////////////////////////////////////// */
+.gradient-text-warm {
+    /* background: linear-gradient(90deg, #FFE29C 0%, #FFB6A3 100%); */
+        background: linear-gradient(180deg, #78777a 0%, #0be0d1 50%, #f0e10c 70%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+     display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    min-height: 25vh;
+    padding: 50px;
+}
 
+
+
+/* Card Buttons - testing */
+
+.gradient-buttons {
+    /* background: linear-gradient(90deg, #FFE29C 0%, #FFB6A3 100%); */
+        background: linear-gradient(180deg, #78777a 0%, #0be0d1 50%, #f0e10c 70%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+     display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    /* min-height: 25vh;
+    padding: 50px; */
+}
+
+/* .gradient-text-cyan {
+    background: linear-gradient(90deg, #00D4FF 0%, #0EA5E9 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.gradient-text-pink {
+    background: linear-gradient(90deg, #FFB6A3 0%, #EC4899 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 20vh;
+} */
+
+/* .gradient-text-purple {
+    background: linear-gradient(90deg, #C9B4E7 0%, #8B5CF6 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+} */
 
 
 
