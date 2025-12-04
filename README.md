@@ -125,13 +125,27 @@ The HTML page has been tested with the w3c validator and passed with no errors.
 
 The Design is aiming to balance the mental wellness side while also fit on brand with the tech studio website.
 
-- Desktop Screenshots
-  ![Webpage Screenshot 1](assets/images/Desktop-1200px-part-1.png)
-  ![Webpage Screenshot 2](assets/images/Desktop-1200px-part-2.png)
-  ![Webpage Screenshot 3](assets/images/Desktop-1200px-part-3.png)
+### Desktop Screenshots
 
-  - Mobile Screenshots
-    ![Mobile Screenshot 1](assets/images/mobile-phone-part-1.png)
+![Webpage Screenshot 1](assets/images/Desktop-1200px-part-1.png)
+![Webpage Screenshot 2](assets/images/Desktop-1200px-part-2.png)
+![Webpage Screenshot 3](assets/images/Desktop-1200px-part-3.png)
+
+### Larger Screens Screenshots
+
+![Webpage Screenshot 1](assets/images/large-screen-size-part-1.png)
+![Webpage Screenshot 2](assets/images/large-screen-size-part-2.png)
+
+### Artwork Fullscreen mode
+
+![Webpage Screenshot 1](assets/images/Desktop-fullscreen-mode.png)
+
+### Mobile Screenshots
+
+![Webpage Screenshot 1](assets/images/mobile-phone-part-1.png)
+![Webpage Screenshot 2](assets/images/mobile-phone-part-2.png)
+![Webpage Screenshot 3](assets/images/mobile-phone-part-3.png)
+![Webpage Screenshot 4](assets/images/mobile-phone-part-4.png)
 
 ## Browser Support
 
