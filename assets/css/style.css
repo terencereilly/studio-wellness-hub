@@ -136,6 +136,22 @@ color: var(--primary-color);
 /* //////////////////////////////////////////////////////////////////////////// */
 /* Wellness Gradient Utilities */
 /* //////////////////////////////////////////////////////////////////////////// */
+
+/* I used this top one only */
+.gradient-wellness-warm {
+    width: 100wh;
+    min-height: 30vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, var(--wellness-mint) 0%, var(--wellness-yellow) 50%, var(--wellness-coral) 100%);
+}
+
+
+
+/* Didnt use these yet  */
 .gradient-wellness-calm {
     width: 100wh;
     min-height: 30vh;
@@ -147,16 +163,7 @@ color: var(--primary-color);
     background: linear-gradient(135deg, var(--wellness-blue) 0%, var(--wellness-lavender) 50%, var(--wellness-mint) 100%);
 }
 
-.gradient-wellness-warm {
-    width: 100wh;
-    min-height: 30vh;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background: linear-gradient(135deg, var(--wellness-mint) 0%, var(--wellness-yellow) 50%, var(--wellness-coral) 100%);
-}
+
 
 .gradient-wellness-balance {
     width: 100wh;

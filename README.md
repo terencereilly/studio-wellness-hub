@@ -31,7 +31,7 @@ The design uses a carefully curated wellness color palette:
 - **Accent Colors**: Soft yellow (#FFE29C), coral (#FFB6A3)
 - These colors evoke calm, balance, and positivity
 
-## Technology Stack
+## Tech Stack
 
 - **HTML5** - Semantic markup structure
 - **CSS3** - Modern gradients, flexbox, and responsive design
@@ -39,6 +39,10 @@ The design uses a carefully curated wellness color palette:
 - **JavaScript** - Interactive features (fullscreen toggle, responsive iframe)
 - **Font Awesome** - Icon library for social media and UI elements
 - **Google Fonts** - Inter, Space Grotesk, Plus Jakarta Sans (not used)
+
+## Wireframe
+
+![alt wireframe-design](assets/images/wireframe-screenshot.png)
 
 ## Project Structure
 
@@ -51,6 +55,8 @@ studio-wellness-hub/
 │   ├── images/            # Project image assets
 │   └── look-dev/          # Design reference and development files
 └── README.md              # This file
+
+
 ```
 
 ## Getting Started
@@ -68,12 +74,7 @@ studio-wellness-hub/
 
 ### Wellness Gradient Classes
 
-- `.gradient-wellness-calm` - Soft blue → lavender → mint
 - `.gradient-wellness-warm` - Mint → yellow → coral
-- `.gradient-wellness-balance` - All four colors blended
-- `.gradient-wellness-vibrant` - Lavender → coral → yellow
-- `.gradient-wellness-soft` - Subtle blue gradient
-- `.overlay-wellness-calm` - Layered radial gradients for depth
 
 ### Component Classes
 
