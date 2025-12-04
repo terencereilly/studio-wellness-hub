@@ -20,7 +20,6 @@
 
 
 
-
     <!-- Navigation -->
     <header class="modern-header">
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
@@ -54,8 +53,6 @@
 
     <!-- Main | Body of Website -->
     <main class="footer-spacer">
-
-
 
         <!-- //////////////////////////////////////////////////////////////////////////// -->
         <!-- Hero Section -->
@@ -114,13 +111,10 @@
             </div>
         </section>
 
-
-
-
         <!-- //////////////////////////////////////////////////////////////////////////// -->
         <!-- Signs of Stress -->
         <!-- //////////////////////////////////////////////////////////////////////////// -->
-
+       
         <div class="overlay-wellness-calm">
 
 
@@ -133,11 +127,6 @@
                 • Tension or restlessness
             </h4>
         </div>
-
-    
-
-
-    
 
         <!-- //////////////////////////////////////////////////////////////////////////// -->
         <!-- iFrame Section -->
@@ -158,7 +147,8 @@
                 </button>
                 <iframe id="myIframe"
                     src="https://olta-ao-app-lyart.vercel.app/embed/?contractTxId=GVXpnZWoJOE3qEJYS6FgUDj-J2UzONnABZiuyKlanaI&network=testnet&minimal"
-                    allow="fullscreen" allowfullscreen></iframe>
+                    allow="fullscreen; autoplay; camera; microphone; accelerometer; gyroscope; magnetometer; xr-spatial-tracking" 
+                    allowfullscreen></iframe>
             </div>
         
             <br>
@@ -166,9 +156,6 @@
             <p class="paragraph">Each new point connects to the previous one, with the camera adjusting to highlight it.  <i>Participation is optional.</i></p>
         
         </div>
-
-
-
 
         <!-- //////////////////////////////////////////////////////////////////////////// -->
         <!-- Tip Info Cards with Link Buttons - Section -->
@@ -210,96 +197,28 @@
                     </div>
                 </div>
             </div>
-
-
-            
+    
         </section>
-
-
-        <!-- <hr class="divider-4"> -->
-        <!-- Random Container -->
-        <!-- <section class="container-fluid">
-                <div class="row">
-                    <div class="col-12 col-xl-4">Section 1</div>
-                    <div class="col-12 col-xl-4">Section 2</div>
-                    <div class="col-12 col-xl-4">Section 3</div>
-                </div>
-            </section> -->
-
-
-
-
 
         <!-- //////////////////////////////////////////////////////////////////////////// -->
         <!-- Encouraging Words Section -->
         <!-- //////////////////////////////////////////////////////////////////////////// -->
-
-
         <div>
-            <!-- <h4 class="hero-sub-heading">You are valued. You belong here. It's okay to ask for help. Connection makes us stronger.</h4> -->
-
-            <h2 class="gradient-text-warm text-center"> You are valued ◇ You belong here ◇ It's okay to ask for help ◇
-                Connection makes us stronger </h2>
-
-
-            <!-- gradient-text-warm
-gradient-text-cyan
-gradient-text-pink 
-gradient-text-purple -->
-
-
+            <h2 class="gradient-text-warm text-center"> You are valued ◇ You belong here ◇ It's okay to ask for help ◇ Connection makes us stronger</h2>
         </div>
-
-        <!-- <hr class="divider-4"> -->
-
-
 
     </main>
 
-
-
-
-
-
-
-
-
     <!-- Footer -->
-    <!-- <footer class="container-fluid fixed-bottom bg-light py-5"></footer> -->
     <footer class="container-fluid bg-light py-2">
-        <!-- <h2 class="hero-heading">Studio</h2> -->
-       
-
-        <!--         
-         <hr class="divider-2"> -->
-
         <div class="row py-5">
             <div class="col-4 text-center"><i class="fa-brands fa-twitter fa-2x social-icon"></i></div>
             <div class="col-4 text-center"><i class="fa-brands fa-facebook fa-2x social-icon"></i></div>
             <div class="col-4 text-center"><i class="fa-brands fa-youtube fa-2x social-icon"></i></div>
-
         </div>
-        <!-- fa-xs - Extra small
-fa-sm - Small
-fa-lg - Large
-fa-2x - 2x size (recommended)
-fa-3x - 3x size
-fa-5x - 5x size
-fa-10x - 10x size -->
 
-
-        <!-- <hr class="divider-4"> -->
-
+      
     </footer>
-
-    <!-- <hr class="divider-3"> -->
-
-
-
-
-
-
-
 
 
     <!-- Bootstrap 5 JS -->
@@ -310,31 +229,11 @@ fa-10x - 10x size -->
     <!-- Font Awesome Kit -->
     <script src="https://kit.fontawesome.com/9fc19e8b68.js" crossorigin="anonymous"></script>
 
-
-
-    <script>
-        // Function to determine if device is mobile based on screen width
-        function isMobileDevice() {
-            return window.innerWidth <= 768;
-        }
-
-        // Function to set iframe URL based on device type
-        function setIframeUrl() {
-            const iframe = document.getElementById('olta-iframe');
-            if (iframe) {
-                if (isMobileDevice()) {
-                    // Mobile: load touch-and-explore playlist
-                    iframe.src = 'https://olta-ao-app-lyart.vercel.app/embed/?contractTxId=GVXpnZWoJOE3qEJYS6FgUDj-J2UzONnABZiuyKlanaI&network=testnet&minimal';
-                } else {
-                    // Desktop: load main app
-                    iframe.src = 'https://app.olta.art/';
-                }
-            }
-        }
-
-        // Set initial URL when page loads
-        setIframeUrl();
-
+   
+     <!-- //////////////////////////////////////////////////////////////////////////// -->
+        <!-- Encouraging Words Section -->
+    <!-- //////////////////////////////////////////////////////////////////////////// -->
+   <script>
         function toggleFullscreen(btn) {
             const iframe = document.getElementById('myIframe');
             if (iframe.requestFullscreen) {
@@ -348,5 +247,3 @@ fa-10x - 10x size -->
 
 </html>
 
-<!-- Emmet Short hand for Header with Carousel -->
-<!-- header.container>.row>.col-12.col-xl-6*2 -->
