@@ -15,10 +15,10 @@
     
     /* Wellness Color Palette */
     --wellness-blue: #A7C7E7;
-    --wellness-lavender: #C9B4E7;
-    --wellness-mint: #B6E3C1;
-    --wellness-yellow: #FFE29C;
-    --wellness-coral: #FFB6A3;
+    --wellness-lavender: #6822ca;
+    --wellness-mint: #1af584;
+    --wellness-yellow: #32b2bb;
+    --wellness-coral: #f107ed;
 }
 
 /* Global Styles */
@@ -177,8 +177,8 @@ color: var(--primary-color);
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(90deg, var(--wellness-lavender) 0%, var(--wellness-coral) 50%, var(--wellness-yellow) 100%);
-}
+}    background: linear-gradient(90deg, var(--wellness-lavender) 0%, var(--wellness-blue) 50%, var(--wellness-yellow) 100%);
+
 
 .gradient-wellness-soft {
     width: 100wh;
