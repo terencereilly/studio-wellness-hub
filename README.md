@@ -123,7 +123,7 @@ The HTML page has been tested with the w3c validator and passed with no errors.
 
 ## Design / Layout
 
-The Design is aiming to balance the mental wellness side while also fit on brand with the tech studio website.
+The design aimed to balance a mental-wellness vibe with the tech-studio brand identity so it feels credible, modern, and meaningful for the studio's employees, partners and clients.
 
 ### Desktop Screenshots
 
@@ -146,6 +146,15 @@ The Design is aiming to balance the mental wellness side while also fit on brand
 ![Webpage Screenshot 2](assets/images/mobile-phone-part-2.png)
 ![Webpage Screenshot 3](assets/images/mobile-phone-part-3.png)
 ![Webpage Screenshot 4](assets/images/mobile-phone-part-4.png)
+
+## Choice regarding including interactive art
+
+I chose to add a interactive artwork that I previously created into this project as it enhances the creative tech's studio goal by adding:
+
+- A signature digital element that shows the company invests in wellbeing
+- A unique, memorable experience that aligns with their culture
+- A visual metaphor for support, teamwork, and care
+- A non-intrusive, optional interaction that doesn’t overwhelm users
 
 ## Browser Support
 
