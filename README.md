@@ -158,9 +158,9 @@ I chose to add a interactive artwork that I previously created into this project
 
 ## Browser Support
 
-- Chrome/Edge: Latest 2 versions
-- Firefox: Latest 2 versions
-- Safari: Latest 2 versions
+- Chrome/Edge
+- Firefox
+- Safari
 - Mobile browsers: iOS Safari, Chrome Mobile
 
 ## Future Enhancements
