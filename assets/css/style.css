@@ -186,9 +186,6 @@ color: var(--primary-color);
     justify-content: center;
 }
 
-/* background: linear-gradient(90deg, var(--wellness-lavender) 0%, var(--wellness-blue) 50%, var(--wellness-yellow) 100%); */
-
-
 .gradient-wellness-soft {
     width: 100wh;
     min-height: 30vh;
@@ -336,12 +333,13 @@ It's a common pattern when you plan to overlay or position elements on top of th
 
 .hero-heading {
     font-family: 'Inter', sans-serif;
-    font-size: 50px;
+    font-size: 40px;
     font-weight: bold;
     color: rgb(64, 212, 212);
     /* color: #0B2E4F; */
     text-align: center;
-    margin-top: 60px;
+    /* margin-top: 20px; */
+    padding: 20px 20px;
 }
 
 .hero-sub-heading {
@@ -350,13 +348,14 @@ It's a common pattern when you plan to overlay or position elements on top of th
     /* color: white;  */
     color: #8fa8a8;
     text-align: center;
-    margin-top: 20px;
-    padding: 0 40px;
+    /* margin-top: 20px; */
+    padding: 20px 20px;
 }
 
 .building-connections {
     font-family: 'Inter', sans-serif;
-    font-size: 30px;
+    font-size: 40px;
+     font-weight: bold;
     /* width: 100wh;
     min-height: 30vh; */
 color: rgb(9, 109, 107);
@@ -364,7 +363,7 @@ color: rgb(9, 109, 107);
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 
 
@@ -396,9 +395,9 @@ opacity: 0.5;
     /* color: white;  */
     color: #8fa8a8;
     text-align: center;
-    margin-top: 20px;
+    /* margin-top: 20px;
     margin-bottom: 20px;
-    padding: 0 40px;
+    padding: 0 40px; */
 
 }
 
@@ -571,6 +570,25 @@ iframe {
 
 .fullscreen-btn:hover {
     background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+/* //////////////////////////////////////////////////////////////////////////// */
+/* Social Icons - Hover Effects */
+/* //////////////////////////////////////////////////////////////////////////// */
+.social-icon {
+    display: inline-block;
+    cursor: pointer;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.social-icon:hover,
+.social-icon:active {
+    transform: scale(1.2);
+}
+
+.social-icon:active {
+    transform: scale(1.25);
 }
 
 
