@@ -285,6 +285,22 @@ It's a common pattern when you plan to overlay or position elements on top of th
     padding: 0 40px;
 }
 
+/* wip */
+.footer-sub-heading {
+    font-family: 'Inter', sans-serif;
+    /* font-size: 20px; */
+    /* color: white;  */
+    color: #8fa8a8;
+    text-align: center;
+    /* margin-top: 10px; */
+    margin-bottom: 80px;
+    padding: 0 40px;
+}
+
+
+
+
+
 /* NOTE: If change to section (not .section) it affects all parts in the codebase with the element<section>  */
 /* section {
     padding: 80px 80px;

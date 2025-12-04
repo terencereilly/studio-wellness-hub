@@ -129,11 +129,8 @@ Edit text, headings, and images directly in `index.html`.
 ## Future Enhancements
 
 - [ ] Add more wellness resource pages
-- [ ] Implement user accounts and progress tracking
-- [ ] Add more interactive features and animations
 - [ ] Create accessibility improvements (ARIA labels, keyboard navigation)
 - [ ] Add multilingual support
-- [ ] Implement dark mode toggle
 - [ ] Add blog/resource section
 - [ ] Connect external wellness APIs
 
