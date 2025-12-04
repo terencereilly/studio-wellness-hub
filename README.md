@@ -66,10 +66,6 @@ studio-wellness-hub/
 - A modern web browser (Chrome, Firefox, Safari, Edge)
 - Internet connection (for external CDN resources)
 
-### Installation
-
-<!-- Add this later -->
-
 ## Key CSS Classes & Utilities
 
 ### Wellness Gradient Classes
@@ -118,6 +114,12 @@ Edit gradient classes in `style.css` to adjust angles, colors, and opacity value
 ### Updating Content
 
 Edit text, headings, and images directly in `index.html`.
+
+## Testing
+
+The HTML page has been tested with the w3c validator and passed with no errors.
+
+![alt HTML Validation Test](assets/images/W3C-Validation.png)
 
 ## Browser Support
 
