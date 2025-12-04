@@ -176,7 +176,7 @@ It's a common pattern when you plan to overlay or position elements on top of th
     font-family: 'Inter', sans-serif;
     font-size: 50px;
     font-weight: bold;
-    color: rgb(74, 72, 72); 
+    color: rgb(219, 225, 226); 
     /* color: #0B2E4F; */
     text-align: center;
     margin-top: 60px;
@@ -186,7 +186,7 @@ It's a common pattern when you plan to overlay or position elements on top of th
     font-family: 'Inter', sans-serif;
     font-size: 20px;
     /* color: white;  */
-    color: #6e7b80;
+    color: #bfc0c0;
     text-align: center;
     margin-top: 20px;
     padding: 0 40px;
@@ -218,18 +218,21 @@ It's a common pattern when you plan to overlay or position elements on top of th
     flex-direction: column;
     align-items: center;
     justify-content: center;
-     background: radial-gradient(circle at 20% 80%, rgba(116, 82, 196, 0.08) 0%, transparent 50%)
+    padding: 60px 20px;
+     background: radial-gradient(circle at 20% 80%, rgba(116, 82, 196, 0.08) 0%, transparent 50%);
 }
 
 /* Add geometric pattern overlay using background patterns */
 .signs {
-    width: 100%;
-    min-height: 40vh;
+    /* width: 100%; */
+    height: 300px;
+    background: linear-gradient(90deg, #6761e3 0%, #d9628e 50%, #e6c676 100%);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 60px 20px;
+    padding: 20px 10px;    border-radius: 2px;
+
 }
 
 
@@ -242,6 +245,40 @@ It's a common pattern when you plan to overlay or position elements on top of th
        background: linear-gradient(135deg, #3e93bd 5%, #a89ba2 20%, #3cc2a2 10%);
 } */
 
+
+
+
+.divider-1 {
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #218de6, transparent);
+    border: none;
+    margin: 40px 0;
+}
+
+.divider-2 {
+    height: 3px;
+    background: linear-gradient(90deg, transparent, #ff006e, transparent);
+    border: none;
+    margin: 40px 0;
+    box-shadow: 0 0 20px rgba(255, 0, 110, 0.3);
+}
+
+
+.divider-3 {
+    height: 4px;
+    background: linear-gradient(90deg, #218de6 0%, #ff006e 50%, #fbbf24 100%);
+    border: none;
+    margin: 20px 0;
+    border-radius: 2px;
+}
+
+.divider-4 {
+    height: 4px;
+    background: linear-gradient(90deg, #218de6 0%, #da1c62 50%, #fbbf24 100%);
+    border: none;
+    margin: 0px 0;
+    border-radius: 2px;
+}
 
 
 
