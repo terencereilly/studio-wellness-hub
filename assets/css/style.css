@@ -12,8 +12,13 @@
     --secondary-font: 'Inter', cursive;
     --primary-color: rgb(24, 24, 24);
     --secondary-color: rgb(119, 119, 119);
-    /* --highlight-color: rgb(26, 26, 224);
-    --highlight-color-light: rgb(213, 24, 191); */
+    
+    /* Wellness Color Palette */
+    --wellness-blue: #A7C7E7;
+    --wellness-lavender: #C9B4E7;
+    --wellness-mint: #B6E3C1;
+    --wellness-yellow: #FFE29C;
+    --wellness-coral: #FFB6A3;
 }
 
 /* Global Styles */
@@ -129,6 +134,47 @@ color: var(--primary-color);
 }
 
 /* //////////////////////////////////////////////////////////////////////////// */
+/* Wellness Gradient Utilities */
+/* //////////////////////////////////////////////////////////////////////////// */
+.gradient-wellness-calm {
+    background: linear-gradient(135deg, var(--wellness-blue) 0%, var(--wellness-lavender) 50%, var(--wellness-mint) 100%);
+}
+
+.gradient-wellness-warm {
+    background: linear-gradient(135deg, var(--wellness-mint) 0%, var(--wellness-yellow) 50%, var(--wellness-coral) 100%);
+}
+
+.gradient-wellness-balance {
+    background: linear-gradient(135deg, var(--wellness-blue) 0%, var(--wellness-mint) 33%, var(--wellness-lavender) 66%, var(--wellness-yellow) 100%);
+}
+
+.gradient-wellness-vibrant {
+    background: linear-gradient(90deg, var(--wellness-lavender) 0%, var(--wellness-coral) 50%, var(--wellness-yellow) 100%);
+}
+
+.gradient-wellness-soft {
+    background: linear-gradient(180deg, var(--wellness-blue) 0%, rgba(167, 199, 231, 0.3) 100%);
+}
+
+/* Subtle overlay gradients */
+.overlay-wellness-calm {
+    width: 100wh;
+    min-height: 30vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: 
+        radial-gradient(circle at 20% 80%, rgba(167, 199, 231, 0.15) 0%, transparent 50%),
+        radial-gradient(circle at 80% 20%, rgba(182, 227, 193, 0.15) 0%, transparent 50%);
+}
+
+
+
+   
+
+/* //////////////////////////////////////////////////////////////////////////// */
 /* Main Body CSS Styles */
 /* //////////////////////////////////////////////////////////////////////////// */
 .footer-spacer {
@@ -155,15 +201,15 @@ color: var(--primary-color);
 .hero {
     width: 100wh;
     min-height: 30vh;
-    /* Note find a better way to make this min-height value responsive */
-    /* min-height: 400px;  */
-    /* background: linear-gradient(to bottom, #218de6, #F7FAFF); */
-    background: linear-gradient(135deg, #218de6 0%, #ff006e 100%);
     position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+     /* Note find a better way to make this min-height value responsive */
+    /* min-height: 400px;  */
+    /* background: linear-gradient(to bottom, #218de6, #F7FAFF); */
+    background: linear-gradient(135deg, #218de6 0%, #ff006e 100%);
 }
 
 /* Positioning Context: Any child elements with position: absolute; will be positioned relative 
@@ -176,7 +222,7 @@ It's a common pattern when you plan to overlay or position elements on top of th
     font-family: 'Inter', sans-serif;
     font-size: 50px;
     font-weight: bold;
-    color: rgb(219, 225, 226); 
+    color: rgb(64, 212, 212); 
     /* color: #0B2E4F; */
     text-align: center;
     margin-top: 60px;
@@ -186,7 +232,7 @@ It's a common pattern when you plan to overlay or position elements on top of th
     font-family: 'Inter', sans-serif;
     font-size: 20px;
     /* color: white;  */
-    color: #bfc0c0;
+    color: #8fa8a8;
     text-align: center;
     margin-top: 20px;
     padding: 0 40px;
@@ -199,7 +245,7 @@ It's a common pattern when you plan to overlay or position elements on top of th
 
 .hero-background {
     width: 100%;
-    min-height: 40vh;
+    min-height: 20vh;
     background: linear-gradient(135deg, #f0f4ff 0%, #fce7f3 50%, #f0fdfa 100%);
     position: relative;
     display: flex;
@@ -226,13 +272,13 @@ It's a common pattern when you plan to overlay or position elements on top of th
 .signs {
     /* width: 100%; */
     height: 300px;
-    background: linear-gradient(90deg, #6761e3 0%, #d9628e 50%, #e6c676 100%);
+    background: linear-gradient(135deg, #0ea5e9 0%, #8b5cf6 35%, #ec4899 65%, #10b981 100%);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 20px 10px;    border-radius: 2px;
-
+    padding: 20px 10px;    
+    border-radius: 2px;
 }
 
 
