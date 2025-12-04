@@ -12,7 +12,7 @@
     --secondary-font: 'Inter', cursive;
     --primary-color: rgb(24, 24, 24);
     --secondary-color: rgb(119, 119, 119);
-    
+
     /* Wellness Color Palette */
     --wellness-blue: #A7C7E7;
     --wellness-lavender: #6822ca;
@@ -184,7 +184,9 @@ color: var(--primary-color);
     flex-direction: column;
     align-items: center;
     justify-content: center;
-}    background: linear-gradient(90deg, var(--wellness-lavender) 0%, var(--wellness-blue) 50%, var(--wellness-yellow) 100%);
+}
+
+background: linear-gradient(90deg, var(--wellness-lavender) 0%, var(--wellness-blue) 50%, var(--wellness-yellow) 100%);
 
 
 .gradient-wellness-soft {
@@ -207,14 +209,14 @@ color: var(--primary-color);
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-image: 
+    background-image:
         radial-gradient(circle at 20% 80%, rgba(167, 199, 231, 0.15) 0%, transparent 50%),
         radial-gradient(circle at 80% 20%, rgba(182, 227, 193, 0.15) 0%, transparent 50%);
 }
 
 
 
-   
+
 
 /* //////////////////////////////////////////////////////////////////////////// */
 /* Main Body CSS Styles */
@@ -253,7 +255,7 @@ color: var(--primary-color);
     flex-direction: column;
     align-items: center;
     justify-content: center;
-     /* Note find a better way to make this min-height value responsive */
+    /* Note find a better way to make this min-height value responsive */
     /* min-height: 400px;  */
     /* background: linear-gradient(to bottom, #218de6, #F7FAFF); */
     background: linear-gradient(135deg, #218de6 0%, #ff006e 100%);
@@ -269,7 +271,7 @@ It's a common pattern when you plan to overlay or position elements on top of th
     font-family: 'Inter', sans-serif;
     font-size: 50px;
     font-weight: bold;
-    color: rgb(64, 212, 212); 
+    color: rgb(64, 212, 212);
     /* color: #0B2E4F; */
     text-align: center;
     margin-top: 60px;
@@ -328,7 +330,7 @@ It's a common pattern when you plan to overlay or position elements on top of th
     align-items: center;
     justify-content: center;
     padding: 60px 20px;
-     background: radial-gradient(circle at 20% 80%, rgba(116, 82, 196, 0.08) 0%, transparent 50%);
+    background: radial-gradient(circle at 20% 80%, rgba(116, 82, 196, 0.08) 0%, transparent 50%);
 }
 
 /* Add geometric pattern overlay using background patterns */
@@ -340,7 +342,7 @@ It's a common pattern when you plan to overlay or position elements on top of th
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 20px 10px;    
+    padding: 20px 10px;
     border-radius: 2px;
 }
 
@@ -382,16 +384,12 @@ It's a common pattern when you plan to overlay or position elements on top of th
 }
 
 .divider-4 {
-    height: 4px;
+    height: 100px;
     background: linear-gradient(90deg, #218de6 0%, #da1c62 50%, #fbbf24 100%);
     border: none;
     margin: 0px 0;
     border-radius: 2px;
 }
-
-
-
-
 
 .card-img-top {
     height: 200px;
@@ -404,13 +402,13 @@ It's a common pattern when you plan to overlay or position elements on top of th
 .connect-artwork {
     text-align: center;
     padding: 20px;
-    background-color:  white;
+    background-color: white;
     /* border-radius: 8px; */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     /* margin-top: 40px; */
-    
+
 }
-   
+
 /* original placeholder for iframe linked to text called 'Placeholder Text'*/
 /* .connect-placeholder {
     width: 100%;
@@ -423,7 +421,7 @@ It's a common pattern when you plan to overlay or position elements on top of th
 } */
 
 iframe {
-    position: absolute;
+    position: relative;
     top: 0;
     left: 0;
     width: 100%;
@@ -435,8 +433,9 @@ iframe {
 .iframe-container {
     position: relative;
     width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
     aspect-ratio: 16 / 9;
-    margin: 20px 0;
 }
 
 .fullscreen-btn {
@@ -450,7 +449,8 @@ iframe {
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    display: none; /* Hidden by default */
+    display: none;
+    /* Hidden by default */
 }
 
 /* Show button on desktop only */
