@@ -501,11 +501,13 @@ iframe {
     display: inline-block;
     cursor: pointer;
     transition: transform 0.3s ease, color 0.3s ease;
+    color: #333333;
 }
 
 .social-icon:hover,
 .social-icon:active {
     transform: scale(1.2);
+    color: #000000;
 }
 
 .social-icon:active {
