@@ -233,6 +233,11 @@ color: var(--primary-color);
     box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
 }
 
+.card-padded {
+    padding: 60px;
+    margin-top: 20px;
+}
+
 .hero {
     width: 100wh;
     min-height: 30vh;
