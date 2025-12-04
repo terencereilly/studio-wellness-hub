@@ -151,49 +151,7 @@ color: var(--primary-color);
 
 
 
-/* Didnt use these yet  */
-.gradient-wellness-calm {
-    width: 100wh;
-    min-height: 30vh;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background: linear-gradient(135deg, var(--wellness-blue) 0%, var(--wellness-lavender) 50%, var(--wellness-mint) 100%);
-}
 
-.gradient-wellness-balance {
-    width: 100wh;
-    min-height: 30vh;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background: linear-gradient(135deg, var(--wellness-blue) 0%, var(--wellness-mint) 33%, var(--wellness-lavender) 66%, var(--wellness-yellow) 100%);
-}
-
-.gradient-wellness-vibrant {
-    width: 100wh;
-    min-height: 30vh;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.gradient-wellness-soft {
-    width: 100wh;
-    min-height: 30vh;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background: linear-gradient(180deg, var(--wellness-blue) 0%, rgba(167, 199, 231, 0.3) 100%);
-}
 
 /* Subtle overlay gradients */
 .overlay-wellness-calm {
